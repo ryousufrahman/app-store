@@ -11,7 +11,8 @@ const Navbar = () => {
                 <ul className='flex gap-3'>
                     <li><NavLink to={'/'}>Home</NavLink></li>
                     <li><NavLink to={'/apps'}>apps</NavLink></li>
-                    <li><NavLink to={'/error'}>Download</NavLink></li>
+                    <li><NavLink to={'/installedApp'}>Installed App</NavLink></li>
+                    <li><NavLink to={'/error'}>Downloads</NavLink></li>
                     
                 </ul>
                 <div>

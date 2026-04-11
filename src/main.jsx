@@ -6,6 +6,7 @@ import { RouterProvider } from 'react-router'
 import Layout from './Layout/Layout'
 import Home from './pages/Home/Home'
 import App from './pages/Apps/App'
+import InstalledApp from './pages/Apps/Installedapp/InstalledApp'
 
 const router = createBrowserRouter([
 
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path : '/apps',
         element : <App></App>
+      } ,
+      {
+        path : '/installedApp' ,
+        element : <InstalledApp></InstalledApp>
       }
     ]
   }
