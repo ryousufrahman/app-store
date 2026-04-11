@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder Pro",
+    "description": "Create professional resumes using AI-powered templates and smart suggestions.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ resume templates",
+      "AI content suggestions",
+      "ATS optimization"
+    ],
+    "icon": "https://i.ibb.co.com/cSpjbVBk/resume.png"
+  },
+  {
+    "id": 2,
+    "name": "AI Content Writer",
+    "description": "Generate blog posts, marketing copy, and social media content instantly.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited content generation",
+      "SEO optimization",
+      "Multiple tone options",
+      "Plagiarism checker"
+    ],
+    "icon": "https://i.ibb.co.com/chgwhJHd/writing.png"
+  },
+  {
+    "id": 3,
+    "name": "AI Image Generator",
+    "description": "Turn text prompts into high-quality AI-generated images and artwork.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "HD image generation",
+      "Multiple art styles",
+      "Prompt enhancement"
+    ],
+    "icon": "https://i.ibb.co.com/vCZxpNSy/photo.png"
+  },
+  {
+    "id": 4,
+    "name": "AI Code Assistant",
+    "description": "Boost your development workflow with AI-powered coding help.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Code auto-completion",
+      "Bug detection",
+      "Multi-language support"
+    ],
+    "icon": "https://i.ibb.co.com/C58gmPYS/code.png"
+  },
+  {
+    "id": 5,
+    "name": "AI Presentation Maker",
+    "description": "Generate stunning presentations from simple prompts.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "AI slide generation",
+      "Beautiful templates",
+      "Auto layout design"
+    ],
+    "icon": "https://i.ibb.co.com/KjGRnJZy/presentation.png"
+  },
+  {
+    "id": 6,
+    "name": "AI Marketing Suite",
+    "description": "All-in-one AI toolkit for marketing campaigns and analytics.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Ad copy generator",
+      "Audience targeting",
+      "Campaign analytics"
+    ],
+    "icon": "https://i.ibb.co.com/MynmZDPJ/media.png"
+  }
+]
