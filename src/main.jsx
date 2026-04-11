@@ -7,6 +7,7 @@ import Layout from './Layout/Layout'
 import Home from './pages/Home/Home'
 import App from './pages/Apps/App'
 import InstalledApp from './pages/Apps/Installedapp/InstalledApp'
+import Error from './pages/Errorpage/Error'
 
 const router = createBrowserRouter([
 
@@ -27,6 +28,8 @@ const router = createBrowserRouter([
         element : <InstalledApp></InstalledApp>
       }
     ]
+    ,
+    errorElement : <Error></Error>
   }
 
 
