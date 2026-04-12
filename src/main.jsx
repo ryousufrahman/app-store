@@ -8,6 +8,7 @@ import Home from './pages/Home/Home'
 import App from './pages/Apps/App'
 import InstalledApp from './pages/Apps/Installedapp/InstalledApp'
 import Error from './pages/Errorpage/Error'
+import AppDetails from './pages/appdetails/AppDetails'
 
 const router = createBrowserRouter([
 
@@ -26,7 +27,13 @@ const router = createBrowserRouter([
       {
         path : '/installedApp' ,
         element : <InstalledApp></InstalledApp>
-      }
+      },
+    {
+      path : '/apps/:id',
+      element : <AppDetails></AppDetails>,
+      loader :() => fetch('/products.json')
+    }
+
     ]
     ,
     errorElement : <Error></Error>
