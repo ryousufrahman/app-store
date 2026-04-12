@@ -9,6 +9,9 @@ import App from './pages/Apps/App'
 import InstalledApp from './pages/Apps/Installedapp/InstalledApp'
 import Error from './pages/Errorpage/Error'
 import AppDetails from './pages/appdetails/AppDetails'
+import Dashbord from './Layout/Dashbord'
+import Item1 from './Layout/Dashbord/Item1'
+import Item2 from './Layout/Dashbord/Item2'
 
 const router = createBrowserRouter([
 
@@ -37,6 +40,26 @@ const router = createBrowserRouter([
     ]
     ,
     errorElement : <Error></Error>
+  } ,
+
+  {
+    path : '/dashbord' ,
+    element : <Dashbord></Dashbord> ,
+    children : [
+
+      {
+        index : true ,
+        element : <Item1></Item1>
+      } ,
+      {
+        path : '/dashbord/item1' ,
+        element : <Item1></Item1>
+      },
+      {
+        path : '/dashbord/item2',
+        element : <Item2></Item2>
+      }
+    ]
   }
 
 

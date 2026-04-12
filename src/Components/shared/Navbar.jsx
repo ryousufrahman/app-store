@@ -13,6 +13,7 @@ const Navbar = () => {
                     <li><NavLink to={'/apps'} className={({isActive}) => isActive ? 'text-green-500 border border-green-500 p-2' : ""}>apps</NavLink></li>
                     <li><NavLink to={'/installedApp' } className={({isActive}) => isActive ? 'text-green-500 border border-green-500 p-2' : ""}>Installed App</NavLink></li>
                     <li><NavLink to={'/error'} className={({isActive}) => isActive ? 'text-green-500 border border-green-500 p-2' : ""}>Downloads</NavLink></li>
+                    <li><NavLink to={'/dashbord'} className={({isActive}) => isActive ? 'text-green-500 border border-green-500 p-2' : ""}>Deshbord</NavLink></li>
                     
                 </ul>
                 <div>
