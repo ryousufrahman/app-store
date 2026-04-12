@@ -12,6 +12,7 @@ import AppDetails from './pages/appdetails/AppDetails'
 import Dashbord from './Layout/Dashbord'
 import Item1 from './Layout/Dashbord/Item1'
 import Item2 from './Layout/Dashbord/Item2'
+import MainContext from './MainContext'
 
 const router = createBrowserRouter([
 
@@ -67,6 +68,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    <MainContext>
+      <RouterProvider router={router}></RouterProvider>
+    </MainContext>
   </StrictMode>,
 )
