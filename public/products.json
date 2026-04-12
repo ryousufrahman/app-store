@@ -1,93 +1,90 @@
 [
   {
     "id": 1,
-    "name": "AI Resume Builder Pro",
-    "description": "Create professional resumes using AI-powered templates and smart suggestions.",
-    "price": 19,
-    "period": "monthly",
-    "tag": "Popular",
-    "tagType": "popular",
-    "features": [
-      "100+ resume templates",
-      "AI content suggestions",
-      "ATS optimization"
-    ],
-    "icon": "https://i.ibb.co.com/cSpjbVBk/resume.png"
+    "name": "ChatFlow AI",
+    "description": "An AI-powered chatbot for productivity and daily assistance.",
+    "category": "Productivity",
+    "rating": 4.8,
+    "downloads": "5M+",
+    "price": "Free",
+    "developer": "NovaTech Labs",
+    "featured": true
   },
   {
     "id": 2,
-    "name": "AI Content Writer",
-    "description": "Generate blog posts, marketing copy, and social media content instantly.",
-    "price": 29,
-    "period": "monthly",
-    "tag": "Best Seller",
-    "tagType": "best-seller",
-    "features": [
-      "Unlimited content generation",
-      "SEO optimization",
-      "Multiple tone options",
-      "Plagiarism checker"
-    ],
-    "icon": "https://i.ibb.co.com/chgwhJHd/writing.png"
+    "name": "FitTrack Pro",
+    "description": "Track workouts, calories, and health goals بسهولة.",
+    "category": "Health & Fitness",
+    "rating": 4.6,
+    "downloads": "2M+",
+    "price": "$4.99",
+    "developer": "HealthSync Inc.",
+    "featured": false
   },
   {
     "id": 3,
-    "name": "AI Image Generator",
-    "description": "Turn text prompts into high-quality AI-generated images and artwork.",
-    "price": 15,
-    "period": "monthly",
-    "tag": "New",
-    "tagType": "new",
-    "features": [
-      "HD image generation",
-      "Multiple art styles",
-      "Prompt enhancement"
-    ],
-    "icon": "https://i.ibb.co.com/vCZxpNSy/photo.png"
+    "name": "PhotoMaster",
+    "description": "Advanced photo editing with AI filters and presets.",
+    "category": "Photography",
+    "rating": 4.7,
+    "downloads": "10M+",
+    "price": "Free",
+    "developer": "PixelForge",
+    "featured": true
   },
   {
     "id": 4,
-    "name": "AI Code Assistant",
-    "description": "Boost your development workflow with AI-powered coding help.",
-    "price": 49,
-    "period": "yearly",
-    "tag": "Popular",
-    "tagType": "popular",
-    "features": [
-      "Code auto-completion",
-      "Bug detection",
-      "Multi-language support"
-    ],
-    "icon": "https://i.ibb.co.com/C58gmPYS/code.png"
+    "name": "CodeLearn",
+    "description": "Learn programming languages with interactive lessons.",
+    "category": "Education",
+    "rating": 4.5,
+    "downloads": "1M+",
+    "price": "Free",
+    "developer": "EduCore",
+    "featured": false
   },
   {
     "id": 5,
-    "name": "AI Presentation Maker",
-    "description": "Generate stunning presentations from simple prompts.",
-    "price": 25,
-    "period": "one-time",
-    "tag": "Best Seller",
-    "tagType": "best-seller",
-    "features": [
-      "AI slide generation",
-      "Beautiful templates",
-      "Auto layout design"
-    ],
-    "icon": "https://i.ibb.co.com/KjGRnJZy/presentation.png"
+    "name": "GameZone",
+    "description": "A collection of fun mini-games in one app.",
+    "category": "Entertainment",
+    "rating": 4.3,
+    "downloads": "20M+",
+    "price": "Free",
+    "developer": "PlayHive Studios",
+    "featured": true
   },
   {
     "id": 6,
-    "name": "AI Marketing Suite",
-    "description": "All-in-one AI toolkit for marketing campaigns and analytics.",
-    "price": 59,
-    "period": "monthly",
-    "tag": "Popular",
-    "tagType": "popular",
-    "features": [
-      "Ad copy generator",
-      "Audience targeting",
-      "Campaign analytics"
-    ],
-    "icon": "https://i.ibb.co.com/MynmZDPJ/media.png"
+    "name": "NoteNest",
+    "description": "Organize notes, tasks, and ideas in one place.",
+    "category": "Productivity",
+    "rating": 4.4,
+    "downloads": "3M+",
+    "price": "$2.99",
+    "developer": "SmartApps Co.",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "TravelMate",
+    "description": "Plan trips, book hotels, and explore destinations.",
+    "category": "Travel",
+    "rating": 4.6,
+    "downloads": "4M+",
+    "price": "Free",
+    "developer": "WanderTech",
+    "featured": true
+  },
+  {
+    "id": 8,
+    "name": "MusicWave",
+    "description": "Stream and download your favorite music anytime.",
+    "category": "Music",
+    "rating": 4.5,
+    "downloads": "15M+",
+    "price": "Free",
+    "developer": "SoundSphere",
+    "featured": false
   }
 ]
